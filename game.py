@@ -5,7 +5,7 @@ import os
 
 pygame.init()
 
-W, H = 744, 256
+W, H = 724, 256
 window = pygame.display.set_mode((W, H))
 icon = pygame.image.load(os.path.join('images', 'icon.png'))
 pygame.display.set_icon(icon)
